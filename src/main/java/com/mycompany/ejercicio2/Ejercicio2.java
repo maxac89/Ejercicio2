@@ -16,8 +16,10 @@ public class Ejercicio2 {
         Scanner sc = new Scanner(System.in);
                 
         System.out.println("Ingrese el número de pesetas a convertir a euros");
-        int ptasNum = sc.nextInt();
+        float pesetas = sc.nextFloat();
         
-        System.out.println(ptasNum + " pesetas son " + ptasNum / 166.386 + " euros.");
+        float euros = pesetas / 166.386f;
+        
+        System.out.println(pesetas + " pesetas son " + euros + " euros.");
     }
 }
